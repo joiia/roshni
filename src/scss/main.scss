@@ -1,7 +1,17 @@
-@import "utils/libs";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600|PT+Serif&display=swap&subset=cyrillic');
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/grid";
+
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
 @import "utils/global";
-@import "utils/grid";
+
+@import "modules/header";
+@import "modules/social";
+@import "modules/slider";
 

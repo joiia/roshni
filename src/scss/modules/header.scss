@@ -1,3 +1,37 @@
-header {
-	
+.header {
+	padding: rem(20) 0;
+
+	&__phone {
+		text-align: right;
+		font-size: rem(14);
+	}
+
+	&__logo {
+		padding: rem(34) 0 rem(60);
+		text-align: center;
+
+		img {
+			width: 230px;
+			height: 70px;
+		}
+	}
+
+	&__menu {
+		font-family: $titleFont;
+		font-size: rem(14);
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		text-align: center;
+
+		ul {
+			li {
+				display: inline-block;
+				margin-right: 30px;
+
+				a {
+				
+				}
+			}
+		}
+	}
 }
