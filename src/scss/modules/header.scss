@@ -28,7 +28,7 @@
 		text-align: center;
 		display: none;
 		border-bottom: 1px solid $grey-l;
-		padding-bottom: rem(16);
+		padding-bottom: rem(20);
 
 		@include atM {
 			display: block;
@@ -45,7 +45,7 @@
 					height: 1px;
 					position: absolute;
 					left: 0;
-					bottom: rem(-17);
+					bottom: rem(-21);
 					background: #000;
 					width: 0;
 					transition: width 0.5s;
