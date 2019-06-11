@@ -1,0 +1,23 @@
+.button {
+	letter-spacing: rem(2);
+	text-transform: uppercase;
+	border: 1px solid $grey-l;
+	font-size: rem(11);
+	font-weight: 600;
+	padding: rem(22) rem(35) rem(20) rem(37);
+	margin: 0 auto;
+	display: inline-block;
+	line-height: 1;
+	transition: all .6s ease-out;
+	cursor: pointer;
+
+	&:hover {
+		color: #fff;
+		background: #000;
+	}
+
+	&--black {
+		color: #fff;
+		background: #000;
+	}
+}

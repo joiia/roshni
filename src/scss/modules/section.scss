@@ -1,3 +1,17 @@
 .section {
-	
+	padding: rem(50) 0 rem(60);
+
+	@include atM {
+		padding: rem(90) 0 rem(110);
+	}
+
+	&--pdd-0 {
+		padding: 0 !important;
+	}
+
+	&--narrow {
+		margin: 0 auto;
+		width: 820px;
+		max-width: 100%;
+	}
 }

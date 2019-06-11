@@ -1,0 +1,34 @@
+.burger {
+	position: relative;
+	cursor: pointer;
+	width: 22px;
+	height: 17px;
+	z-index: 40000;
+	transition: all .8s;
+	float: right;
+
+	@include atL {
+		display: none;
+	}
+
+	&__bar {
+		height: 1px;
+		width: 100%;
+		background: #000;
+		position: absolute;
+		top: 7px;
+		right: 0;
+		transition: all .8s; 
+
+		&:first-child {
+			top: 0;
+		}
+
+		&:last-child {
+			top: 14px;
+		}
+	}
+}
+
+
+

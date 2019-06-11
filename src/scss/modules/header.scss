@@ -7,8 +7,12 @@
 	}
 
 	&__logo {
-		padding: rem(34) 0 rem(60);
+		padding: rem(35) 0 rem(25);
 		text-align: center;
+
+		@include atM {
+			padding: rem(34) 0 rem(60);
+		}
 
 		img {
 			width: 230px;
@@ -22,6 +26,11 @@
 		text-transform: uppercase;
 		letter-spacing: 0.1rem;
 		text-align: center;
+		display: none;
+
+		@include atM {
+			display: block;
+		}
 
 		ul {
 			li {
@@ -29,7 +38,7 @@
 				margin-right: 30px;
 
 				a {
-				
+
 				}
 			}
 		}

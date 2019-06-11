@@ -1,0 +1,26 @@
+.form {
+
+	input:not([type="submit"]),
+	textarea {
+		width: 100%;
+		height: rem(50);
+		line-height: rem(52);
+		background: transparent;
+		border: 1px solid $grey;
+		padding: 0 rem(20); 
+		font-size: rem(14);
+		margin-bottom: rem(20);
+		font-family: $mainFont;
+		max-width: 100%;
+		outline: none;
+		transition: all .3s ease-out;
+
+		&:focus {
+			border-color: #000;
+		}
+	}
+
+	textarea {
+		height: rem(120);
+	}
+}
