@@ -1,14 +1,17 @@
 .slider {
-	padding: 0;
-
+	
 	&__img {
 		position: relative;
 		height: 500px;
-		height: calc(100vh - 207px);
+		height: calc(100vh - 201px);
 		overflow: hidden;
 
 		@include atM {
 			height: auto;
+		}
+
+		@include atXXL {
+			height: 600px;
 		}
 
 		img {
@@ -25,6 +28,11 @@
 				width: 100%;
 				position: static;
 				transform: none;
+			}
+
+			@include atXXL {
+				height: 100%;
+				width: auto;
 			}
 		}
 	}
