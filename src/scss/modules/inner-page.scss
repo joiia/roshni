@@ -1,4 +1,13 @@
 .inner-page {
-	padding: rem(120);
-	
+	padding: 0 0 rem(30);
+	font-size: rem(18);
+	line-height: 1.5;
+
+	@include atL {
+		padding: rem(70) 0;
+	}
+
+	@include atXXL {
+		padding: rem(80) 0 !important;
+	}
 }

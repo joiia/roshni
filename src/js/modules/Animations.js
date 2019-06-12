@@ -17,7 +17,7 @@ const Animations = () => {
 			triggerElement: item, 
 			duration: '0',
 			reverse: false,
-			triggerHook: 0.9
+			triggerHook: 0.97
 		})
 		.setClassToggle(item, 'visible')
 		.addTo(controller);

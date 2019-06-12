@@ -1,33 +1,66 @@
 .catalog {
 	&__item {
-		margin-bottom: rem(70);
+		margin-bottom: rem(50);
+
+		@include atL {
+				margin-bottom: rem(70);
+			}
 
 		&-img {
-			padding-right: rem(15);
+			margin-bottom: rem(10);
+
+			@include atL {
+				margin-bottom: 0;
+			}
+			
+			img {
+				height: auto;
+			}
 		}
 
 		&-title {
-			margin-bottom: rem(30);
+			margin-bottom: rem(10);
 			font-size: rem(28);
+
+			@include atL {
+				margin-bottom: rem(30);
+			}
 		}
 
 		&-desc{
-			font-size: rem(18);
-			margin-bottom: rem(40);
+			font-size: rem(16);
+			margin-bottom: rem(10);
 			line-height: 1.5;
+
+			@include atL {
+				font-size: rem(18);
+				margin-bottom: rem(40);
+			}
 		}
 
 		&-button {
-			margin-bottom: rem(20);
+			width: 100%;
+			text-align: center;
+
+			@include atL {
+				width: auto;
+				margin-bottom: rem(20);
+			}
 		}
 
 		.row {
-			align-items: center;
-			margin: 0 -30px;
+
+			@include atL {
+				align-items: center;
+				margin: 0 -30px;
+			}
 		}
 
 		.col {
-			padding: 0 30px;
+
+			@include atL {
+				padding: 0 30px;
+			}	
 		}
 	}
 	
